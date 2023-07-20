@@ -1,0 +1,16 @@
+<middleware>
+    <middleware>
+        <name>Avnet Modustoolbox SDK</name>
+        <id>iotc-modustoolbox-sdk</id>
+        <uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-sdk</uri>
+        <desc>This SDK is used for Connecting to Avnet IoTConnect platform.</desc>
+        <category>Middleware</category>
+        <req_capabilities>cat1</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.0.0">
+                <num>v2.0.1</num>
+                <commit>v2.0.1</commit>
+            </version>
+        </versions>
+    </middleware>
+</middleware>
