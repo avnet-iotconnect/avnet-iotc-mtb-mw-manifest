@@ -1,20 +1,20 @@
 <middleware>
-    <middleware>
-        <name>Avnet Modustoolbox SDK</name>
-        <id>avnet-iotc-mtb-sdk</id>
-        <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-sdk</uri>
-        <desc>This SDK is used for Connecting to Avnet IoTConnect platform.</desc>
-        <category>Middleware</category>
-        <req_capabilities>cat1</req_capabilities>
-        <versions>
-            <version flow_version="2.0" tools_min_version="3.0.0">
-                <num>release-v5.0.0</num>
-                <commit>release-v5.0.0</commit>
-            </version>
-            <version flow_version="2.0" tools_min_version="3.0.0">
-                <num>release-v4.0.0</num>
-                <commit>release-v4.0.0</commit>
-            </version>
-        </versions>
-    </middleware>
+  <middleware>
+    <name>Avnet Modustoolbox SDK</name>
+    <id>avnet-iotc-mtb-sdk</id>
+    <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-sdk</uri>
+    <desc>This SDK is used for Connecting to Avnet IoTConnect platform.</desc>
+    <category>Middleware</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>release-v5.0.0</num>
+        <commit>release-v5.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>release-v4.0.0</num>
+        <commit>release-v4.0.0</commit>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
