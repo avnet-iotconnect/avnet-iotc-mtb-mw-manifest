@@ -1,5 +1,5 @@
 <middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7000, cat5, pse8xxgp]">
     <name>Avnet Modustoolbox SDK</name>
     <id>avnet-iotc-mtb-sdk</id>
     <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-sdk</uri>
@@ -7,6 +7,10 @@
     <category>Middleware</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>release-v8.0.0</num>
+        <commit>release-v8.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>release-v7.0.3</num>
         <commit>release-v7.0.3</commit>
